@@ -11,7 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Referencing images
+        _ = R.image.myImage()
+        
+        // Referencing colors
+        self.view.backgroundColor = R.color.primary()
+        
+        // Referencing localizable strings
+        let message = R.string.localizable.hello()
+        print(message)
     }
 
 
