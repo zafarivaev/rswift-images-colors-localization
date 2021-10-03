@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         self.view.backgroundColor = R.color.primary()
         
         // Referencing localizable strings
-        let message = R.string.localizable.hello()
+        let message = R.string.localizable.hello("James")
         print(message)
+        
     }
 
 

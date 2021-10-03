@@ -6,4 +6,4 @@
   
 */
 
-"hello" = "Hello";
+"hello" = "Hello, %@!";
